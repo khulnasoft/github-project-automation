@@ -12,8 +12,8 @@ setup(
     setup_requires=['setuptools_scm'],
     url='https://github.com/khulansot/github-project-automation',
     license='MIT',
-    author='Rony Kozakish & Dean Arbel',
-    author_email='',
+    author='KhulnaSoft Ltd',
+    author_email='info@khulnasoft.com',
     description='GitHub automatic project manager tool',
     install_requires=[
         'click',

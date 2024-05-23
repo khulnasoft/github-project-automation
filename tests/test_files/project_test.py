@@ -136,7 +136,7 @@ def test_set_issue_to_issue_card():
     issue_id = "=asdf=sdf="
     title = "issue name"
     labels = ["HighEffort", "Low", "bug"]
-    assignee = "ronykoz"
+    assignee = "khulnasoft"
     issue = Issue(
         id=issue_id,
         number=1,
@@ -358,7 +358,7 @@ def test_get_matching_column():
     class MockPullRequest2(object):
         review_requested = True
         review_completed = True
-        assignees = "ronykoz"
+        assignees = "khulnasoft"
 
     issue_docs.pull_request = MockPullRequest2()
 

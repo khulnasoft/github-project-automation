@@ -5,7 +5,7 @@ from github_project_automation.core.project_item.pull_request import (
 
 
 def test_parse_pull_request():
-    assignee = "ronykoz"
+    assignee = "khulnasoft"
 
     pull_request = PullRequest(**parse_pull_request_for_issue({
         "willCloseTarget": True,
@@ -48,7 +48,7 @@ def test_parse_pull_request():
 
 
 def test_parse_pull_request_no_review():
-    assignee = "ronykoz"
+    assignee = "khulnasoft"
 
     pull_request = PullRequest(**parse_pull_request_for_issue({
         "willCloseTarget": True,
@@ -91,7 +91,7 @@ def test_parse_pull_request_no_review():
 
 
 def test_not_requested_review():
-    assignee = "ronykoz"
+    assignee = "khulnasoft"
     pull_request = PullRequest(
         number=1,
         assignees=[assignee],

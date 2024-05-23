@@ -16,7 +16,7 @@ def test_loading_configuration():
     assert configuration.closed_issues_column == 'Done'
     assert configuration.merged_pull_requests_column == 'Done'
     assert configuration.closed_pull_requests_column == 'Done'
-    assert configuration.project_owner == 'ronykoz'
+    assert configuration.project_owner == 'khulnasoft'
     assert configuration.repository_name == 'test'
     assert configuration.project_number == 1
     assert configuration.priority_list == ['Critical', 'High', 'Medium', 'Low', 'Customer|||zendesk']
@@ -33,7 +33,7 @@ def test_loading_configuration():
     assert configuration.sort is False
 
     assert configuration.column_to_rules['Waiting for Docs']['issue.pull_request.review_requested'] is True
-    assert configuration.column_to_rules['Waiting for Docs']['issue.pull_request.assignees'] == ['ronykoz||not rony']
+    assert configuration.column_to_rules['Waiting for Docs']['issue.pull_request.assignees'] == ['khulnasoft||not rony']
     assert configuration.column_to_rules['In progress']['pull_request.review_requested'] is False
 
 

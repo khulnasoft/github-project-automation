@@ -338,21 +338,21 @@ def test_loading_repo_project():
             "nodes": [
                 {
                     "author": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     },
                     "body": "comment 1",
                     "createdAt": "2019-03-19T12:24:27Z"
                 },
                 {
                     "author": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     },
                     "body": "second comment",
                     "createdAt": "2019-03-19T12:27:53Z"
                 },
                 {
                     "author": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     },
                     "body": "third comment",
                     "createdAt": "2019-03-19T12:52:08Z"
@@ -424,7 +424,7 @@ def test_loading_repo_project():
             "edges": [
                 {
                     "node": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     }
                 }
             ]
@@ -886,21 +886,21 @@ def test_loading_org_project():
             "nodes": [
                 {
                     "author": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     },
                     "body": "comment 1",
                     "createdAt": "2019-03-19T12:24:27Z"
                 },
                 {
                     "author": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     },
                     "body": "second comment",
                     "createdAt": "2019-03-19T12:27:53Z"
                 },
                 {
                     "author": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     },
                     "body": "third comment",
                     "createdAt": "2019-03-19T12:52:08Z"
@@ -972,7 +972,7 @@ def test_loading_org_project():
             "edges": [
                 {
                     "node": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     }
                 }
             ]
