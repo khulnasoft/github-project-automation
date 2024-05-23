@@ -19,7 +19,7 @@ In order to configure github-project-automation you will need to create an `.ini
 [General]
 closed_issues_column = Done
 merged_pull_requests_column = Merged
-project_owner = ronykoz
+project_owner = khulnasoft
 repository_name = test
 project_number = 1
 priority_list = Critical,High,Medium,Low
@@ -52,7 +52,7 @@ issue.assignees = true
 issue.pull_request = true
 issue.pull_request.review_requested = true
 issue.pull_request.review_completed = true
-issue.pull_request.assignees = ronykoz
+issue.pull_request.assignees = khulnasoft
 
 ```
 While the General and Actions sections must be in the `.ini` the rest of the sections are dynamic, and each represents the rules for each of your columns.

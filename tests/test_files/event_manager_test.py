@@ -18,7 +18,7 @@ def test_loading_event_manager_with_issue():
     issue_id = "=asdf=sdf="
     title = "issue name"
     labels = ["HighEffort", "Low", "bug", "test"]
-    assignee = "ronykoz"
+    assignee = "khulnasoft"
     issue = {
         "projectCards": {
             "nodes": [
@@ -46,21 +46,21 @@ def test_loading_event_manager_with_issue():
             "nodes": [
                 {
                     "author": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     },
                     "body": "comment 1",
                     "createdAt": "2019-03-19T12:24:27Z"
                 },
                 {
                     "author": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     },
                     "body": "second comment",
                     "createdAt": "2019-03-19T12:27:53Z"
                 },
                 {
                     "author": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     },
                     "body": "third comment",
                     "createdAt": "2019-03-19T12:52:08Z"
@@ -535,7 +535,7 @@ def test_load_repo_project_column():
     issue_id = "=asdf=sdf="
     title = "issue name"
     labels = ["test", "Low", "bug", "Testing"]
-    assignee = "ronykoz"
+    assignee = "khulnasoft"
 
     issue = {
         "repository": {
@@ -574,21 +574,21 @@ def test_load_repo_project_column():
                     "nodes": [
                         {
                             "author": {
-                                "login": "ronykoz"
+                                "login": "khulnasoft"
                             },
                             "body": "comment 1",
                             "createdAt": "2019-03-19T12:24:27Z"
                         },
                         {
                             "author": {
-                                "login": "ronykoz"
+                                "login": "khulnasoft"
                             },
                             "body": "second comment",
                             "createdAt": "2019-03-19T12:27:53Z"
                         },
                         {
                             "author": {
-                                "login": "ronykoz"
+                                "login": "khulnasoft"
                             },
                             "body": "third comment",
                             "createdAt": "2019-03-19T12:52:08Z"
@@ -874,7 +874,7 @@ def test_load_org_project_column():
     issue_id = "=asdf=sdf="
     title = "issue name"
     labels = ["test", "Low", "bug", "Testing"]
-    assignee = "ronykoz"
+    assignee = "khulnasoft"
 
     issue = {
         "repository": {
@@ -913,21 +913,21 @@ def test_load_org_project_column():
                     "nodes": [
                         {
                             "author": {
-                                "login": "ronykoz"
+                                "login": "khulnasoft"
                             },
                             "body": "comment 1",
                             "createdAt": "2019-03-19T12:24:27Z"
                         },
                         {
                             "author": {
-                                "login": "ronykoz"
+                                "login": "khulnasoft"
                             },
                             "body": "second comment",
                             "createdAt": "2019-03-19T12:27:53Z"
                         },
                         {
                             "author": {
-                                "login": "ronykoz"
+                                "login": "khulnasoft"
                             },
                             "body": "third comment",
                             "createdAt": "2019-03-19T12:52:08Z"
@@ -1075,7 +1075,7 @@ def test_event_manager_flow(mocker):
         id="1",
         title="this is a test title",
         number=1,
-        assignees=["ronykoz"],
+        assignees=["khulnasoft"],
         labels=['test', 'Testing', 'bug']
     ))
     mocker.patch.object(EventManager, "load_project_column",
@@ -1128,7 +1128,7 @@ def test_loading_event_manager_with_closed_issue():
     issue_id = "=asdf=sdf="
     title = "issue name"
     labels = ["HighEffort", "Low", "bug", "test"]
-    assignee = "ronykoz"
+    assignee = "khulnasoft"
     issue = {
         "projectCards": {
             "nodes": [
@@ -1156,21 +1156,21 @@ def test_loading_event_manager_with_closed_issue():
             "nodes": [
                 {
                     "author": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     },
                     "body": "comment 1",
                     "createdAt": "2019-03-19T12:24:27Z"
                 },
                 {
                     "author": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     },
                     "body": "second comment",
                     "createdAt": "2019-03-19T12:27:53Z"
                 },
                 {
                     "author": {
-                        "login": "ronykoz"
+                        "login": "khulnasoft"
                     },
                     "body": "third comment",
                     "createdAt": "2019-03-19T12:52:08Z"

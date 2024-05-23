@@ -5,7 +5,7 @@ As an example you can take a look at:
 ```buildoutcfg
 [General]
 closed_issues_column = Done
-project_owner = ronykoz
+project_owner = khulnasoft
 repository_name = test
 is_org_project = false
 project_number = 1
@@ -37,7 +37,7 @@ issue.assignees = true
 issue.pull_request = true
 issue.pull_request.review_requested = true
 issue.pull_request.review_completed = true
-issue.pull_request.assignees = ronykoz
+issue.pull_request.assignees = khulnasoft
 
 ```
 
