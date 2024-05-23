@@ -10,7 +10,7 @@ def test_parse_issue():
     issue_id = "=asdf=sdf="
     title = "issue name"
     labels = ["HighEffort", "Low", "bug"]
-    assignee = "ronykoz"
+    assignee = "khulnasoft"
     parsed_issue = parse_issue({
         "projectCards": {
             "nodes": [
@@ -121,7 +121,7 @@ def test_issue_params():
     issue_id = "=asdf=sdf="
     title = "issue name"
     labels = ["HighEffort", "Low", "bug"]
-    assignee = "ronykoz"
+    assignee = "khulnasoft"
     issue = Issue(**parse_issue({
         "projectCards": {
             "nodes": [
@@ -244,7 +244,7 @@ def test_no_priority_rank():
     issue_id = "=asdf=sdf="
     title = "issue name"
     labels = ["HighEffort", "bug"]
-    assignees = ["ronykoz"]
+    assignees = ["khulnasoft"]
     milestone = "test"
     number = 1
 
@@ -271,7 +271,7 @@ def test_gt():
     issue_id = "=asdf=sdf="
     title = "issue name"
     labels = ["HighEffort", "Low", "bug"]
-    assignee = "ronykoz"
+    assignee = "khulnasoft"
     milestone = "test"
 
     issue = Issue(
@@ -312,7 +312,7 @@ def test_add_details():
     issue_id = "=asdf=sdf="
     title = "issue name"
     labels = ["HighEffort", "Low", "bug"]
-    assignee = "ronykoz"
+    assignee = "khulnasoft"
     milestone = "test"
 
     issue = Issue(
