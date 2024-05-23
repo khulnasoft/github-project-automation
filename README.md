@@ -1,4 +1,6 @@
-![Python package](https://github.com/khulansot/github-project-automation/workflows/Python%20package/badge.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/github/khulnasoft/github-project-automation/badge.svg?branch=master)](https://coveralls.io/github/khulnasoft/github-project-automation?branch=master)
+<a href="https://pypi.org/project/readyapi" target="_blank">
+    <img src="https://img.shields.io/pypi/v/readyapi?color=%2334D058&label=pypi%20package" alt="Package version">
+</a> [![Coverage Status](https://coveralls.io/repos/github/khulnasoft/github-project-automation/badge.svg?branch=master)](https://coveralls.io/github/khulnasoft/github-project-automation?branch=master)
 
 # github-project-automation
 This tool will help you maintain and organize your GitHub project using an automation tool.
