@@ -1,6 +1,9 @@
-<a href="https://pypi.org/project/readyapi" target="_blank">
-    <img src="https://img.shields.io/pypi/v/readyapi?color=%2334D058&label=pypi%20package" alt="Package version">
-</a> [![Coverage Status](https://coveralls.io/repos/github/khulnasoft/github-project-automation/badge.svg?branch=master)](https://coveralls.io/github/khulnasoft/github-project-automation?branch=master)
+<a href="https://pypi.org/project/github-project-automation" target="_blank">
+    <img src="https://img.shields.io/pypi/v/github-project-automation?color=%2334D058&label=pypi%20package" alt="Package version">
+</a>
+<a href="https://coveralls.io/repos/github/khulnasoft/github-project-automation/badge.svg?branch=master" target="_blank">
+    <img src="https://coveralls.io/github/khulnasoft/github-project-automation?branch=master" alt="Coverage">
+</a>
 
 # github-project-automation
 This tool will help you maintain and organize your GitHub project using an automation tool.
