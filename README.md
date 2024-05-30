@@ -61,18 +61,18 @@ issue.pull_request.assignees = khulnasoft
 
 ```
 While the General and Actions sections must be in the `.ini` the rest of the sections are dynamic, and each represents the rules for each of your columns.
-The keys listed in the column section are the attributes of the classes which represent the issue or pull request you are working on. For a more detailed explanation please click [here](https://github.com/khulansot/github-project-automation/blob/master/docs/ini_file.md)
+The keys listed in the column section are the attributes of the classes which represent the issue or pull request you are working on. For a more detailed explanation please click [here](https://github.com/khulansoft/github-project-automation/blob/master/docs/ini_file.md)
 
 
 ### GitHub Actions
-In order to use this in a github action please follow this [documentation](https://github.com/khulansot/github-project-automation/blob/master/docs/ini_file.md).
+In order to use this in a github action please follow this [documentation](https://github.com/khulansoft/github-project-automation/blob/master/docs/ini_file.md).
 
 ___
 ### Usage
 There are three options to run the tool:
 1. Configure an `.ini` file like described above and then using the `github-project-automation manage -c <path to ini>` command or the `wehbhook-manage` command which is used for events.
 2. Import the code and create some more custom rules for your self, like importing issues from another board(FYI this will be added to the tool as well).
-3. GitHub actions - In order to use this in a github action please follow this [documentation](https://github.com/khulansot/github-project-automation/blob/master/docs/GitHub_Action_usage.md).
+3. GitHub actions - In order to use this in a github action please follow this [documentation](https://github.com/khulansoft/github-project-automation/blob/master/docs/GitHub_Action_usage.md).
 
 #### Token
 In any solution you will have to set an envioroonment variable `GITHUB_TOKEN` which is the token you will generate in order for the tool to connect to your GitHub project.
