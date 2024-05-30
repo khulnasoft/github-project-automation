@@ -10,7 +10,7 @@ setup(
     name='github-project-automation',
     use_scm_version=True,
     setup_requires=['setuptools_scm'],
-    url='https://github.com/khulansoft/github-project-automation',
+    url='https://github.com/khulnasoft/github-project-automation',
     license='MIT',
     author='KhulnaSoft Ltd',
     author_email='info@khulnasoft.com',
