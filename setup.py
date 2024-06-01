@@ -19,7 +19,7 @@ setup(
         'click',
         'requests',
         'python-dateutil',
-        'gql==3.0.0a5'
+        'gql==3.6.0b2'
     ],
     packages=find_packages("src"),
     package_dir={"": "src"},

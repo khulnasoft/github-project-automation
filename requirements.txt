@@ -1,5 +1,5 @@
 click>=7.0
 configparser
-gql==3.0.0a5
+gql==3.6.0b2
 python-dateutil
 requests
